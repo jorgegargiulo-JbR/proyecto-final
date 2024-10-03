@@ -263,7 +263,7 @@ main .losServicios .caja1 p {
   max-width: 55%;
   text-align: left;
   padding-left: 4.375rem;
-  font-size: 16px;
+  font-size: 1.25rem;
   line-height: 1.5;
   color: #000000;
 }
@@ -309,7 +309,7 @@ section {
   border-radius: 8px;
 }
 .servicio p {
-  font-size: 16px;
+  font-size: 1.25rem;
   line-height: 1.5;
   color: #000000;
   text-align: left;
@@ -462,7 +462,7 @@ input, textarea {
 
 .submit-btn {
   display: block;
-  width: 90%;
+  width: 40%;
   margin: 0 auto;
   background-color: hsla(96, 57%, 43%, 0.3);
   font-weight: bold;
@@ -475,7 +475,7 @@ input, textarea {
   background-color: #61AD2F;
 }
 
-/* MEDIA QUERIE PARA DISPOSITIVOS MÓVILES */
+/* MEDIA QUERY PARA DISPOSITIVOS MÓVILES */
 @media screen and (min-width: 320px) and (max-width: 767.9px) {
   /* Header - común para los 5 HTML */
   header .header1 {
@@ -655,6 +655,7 @@ input, textarea {
   main .contenido .losServicios .caja1 p {
     padding: 0.9375rem 0 0.5rem 0;
     max-width: 100%;
+    font-size: 1rem;
   }
   main .contenido section #os {
     font-size: 1.25rem;
@@ -672,6 +673,7 @@ input, textarea {
   }
   main .contenido section .otrosServicios .servicio p {
     text-align: left;
+    font-size: 1rem;
   }
   /* Main de CLIENTES */
   main .contenido2 .losClientes {
@@ -714,10 +716,10 @@ input, textarea {
     padding-top: 0;
   }
   .submit-btn {
-    width: 100%;
+    width: 40%;
   }
 }
-/* MEDIA QUERIE PARA TABLET */
+/* MEDIA QUERY PARA TABLET */
 @media screen and (min-width: 767.9px) and (max-width: 1025px) {
   /* Main de INDEX */
   main .contenido {
